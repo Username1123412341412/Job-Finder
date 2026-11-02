@@ -1,0 +1,87 @@
+[
+  {
+    "_comment": "=== 기업 레코드 템플릿 (필수 필드 및 출처 규칙 설명) ===",
+    "id": "corp-unique-id-01",
+    "name": "기업명 (예: ○○공업 주식회사)",
+    "is_sample": false,
+    "verified": false,
+    "hidden_badge": false,
+    "hidden_badge_reason": "운영자 검토 선정 사유 (hidden_badge가 true일 때 작성)",
+    "categories": [
+      "1차 부품사"
+    ],
+    "one_line_summary": {
+      "value": "기업의 핵심 사업 및 제품군을 한 문장으로 요약한 텍스트",
+      "source_url": "https://dart.fss.or.kr/...",
+      "source_date": "2026-03-31"
+    },
+    "size_class": {
+      "value": "중견기업",
+      "source_url": "https://www.mme.or.kr/...",
+      "source_date": "2026-04-01"
+    },
+    "region": {
+      "value": "충청남도 아산시",
+      "source_url": "https://dart.fss.or.kr/...",
+      "source_date": "2026-03-31"
+    },
+    "founded_year": {
+      "value": 1995,
+      "source_url": "https://dart.fss.or.kr/...",
+      "source_date": "2026-03-31"
+    },
+    "employee_count": {
+      "value": 450,
+      "source_url": "https://dart.fss.or.kr/...",
+      "source_date": "2026-06-30"
+    },
+    "revenue_krw_100m": {
+      "value": 3200,
+      "source_url": "https://dart.fss.or.kr/...",
+      "source_date": "2026-03-31"
+    },
+    "tiers": [
+      {
+        "level": "1차",
+        "status": "confirmed",
+        "evidence": "완성차 직납 협력사 등록 및 사업보고서 내 1차 벤더 기재 확인",
+        "source_url": "https://dart.fss.or.kr/...",
+        "source_date": "2026-03-31"
+      }
+    ],
+    "products": [
+      {
+        "name": "대표 부품명",
+        "easy_description": "취업준비생도 이해하기 쉬운 부품의 기능과 자동차 내 위치 설명",
+        "source_url": "https://corp-website.com/products/...",
+        "source_date": "2026-01-15"
+      }
+    ],
+    "tech_keywords": {
+      "value": ["경량화", "열처리", "AUTOSAR", "알루미늄다이캐스팅"],
+      "source_url": "https://corp-website.com/tech/...",
+      "source_date": "2026-02-10"
+    },
+    "customers": [
+      {
+        "name": "고객사명 (예: 한국완성차A)",
+        "status": "confirmed",
+        "source_url": "https://dart.fss.or.kr/...",
+        "source_date": "2026-03-31"
+      }
+    ],
+    "job_roles": {
+      "value": ["기구설계", "공정기술", "품질보증", "임베디드SW"],
+      "source_url": "https://corp-website.com/careers/roles",
+      "source_date": "2026-05-01"
+    },
+    "career_links": [
+      {
+        "type": "official",
+        "url": "https://recruit.corp-website.com",
+        "checked_at": "2026-10-01"
+      }
+    ],
+    "updated_at": "2026-10-25"
+  }
+]
